@@ -1,0 +1,162 @@
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  word-break: break-all
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+img{
+	width: 200px;
+	height: auto;
+}
+form{
+  display: none;
+  position: relative;
+  z-index: 1;
+
+}
+.searchCoords{
+z-index: 1;
+position: relative;
+margin: 0 auto;
+width: 570px;
+top: 5px;
+}
+#test{
+z-index: 1;
+position: absolute;
+width: 100%;
+bottom: 0%;
+}
+#MapName{
+  z-index: 1;
+  position: relative;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+  border: 2px solid black;
+  font-size: 18px;
+  }
+#MapName:focus{
+  outline: none;
+}
+.form-control-sm{
+  width: 200px;
+  position: absolute;
+
+}
+#lat{
+
+}
+#lng{
+  left: 200px;
+}
+#zoom{
+  position: absolute;
+  left: 403px;
+}
+#add{
+  position: absolute;
+  left: 477px;
+}
+#read{
+  z-index: 1;
+  position: absolute;
+  bottom: 100px;
+  width: 200px;
+  height: 85px;
+  text-align: center;
+  left: 70px;
+  top: 10px;
+}
+#idMap{
+  position: absolute;
+  left: 69px;
+  bottom: 0px;
+}
+#idMapInput{
+  bottom: 32px;
+}
+#popupForm{
+  background-color:white;
+  height: 230px;
+  width: 380px;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+  border: 2px solid black;
+  top: 30%;
+  text-align: center;
+  opacity: 0.75;
+
+}
+#MapForm{
+  background-color:white;
+  height: 110px;
+  width: 320px;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+  border: 2px solid black;
+  top: 30%;
+  text-align: center;
+  opacity: 0.85;
+
+}
+.popupLabel{
+  font-style: oblique;
+}
+.popupInput{
+ width: 300px;
+}
+#confirmPopup{
+  bottom: 10px;
+  left: 110px;
+  position: absolute;
+}
+#hidePopup{
+  bottom: 10px;
+  left: 202.5px;
+  width: 67.5px;
+  position: absolute;
+}
+#hideMapSaveForm{
+  bottom: 10px;
+  left: 176.09px;
+  position: absolute;
+}
+#SaveMap{
+  bottom: 10px;
+  left: 85px;
+  width: 58.91px;
+  position: absolute;
+}
+#saveLabel{
+  font-style: oblique;
+}
+#saveInput{
+  width: 290px;
+}
+#editPopup{
+  position: relative;
+  left: 84%;
+}
+.list-group{
+  bottom: 7px;
+  position: relative;
+}
